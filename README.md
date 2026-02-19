@@ -2,22 +2,29 @@
 
 ## Description
 
-Ce projet analyse le dataset **Mental Health and Social Media Balance** provenant de la plateforme Kaggle.
+Ce projet analyse le dataset **Mental Health and Social Media Balance** (Kaggle).
 
-Les données regroupent des informations sur le temps quotidien passé sur les réseaux sociaux, les plateformes utilisées, ainsi que plusieurs indicateurs liés à la santé mentale (stress, anxiété, estime de soi, qualité du sommeil, etc.).
+Les données contiennent des informations sur le **temps d’écran quotidien**, les **plateformes utilisées**, ainsi que plusieurs indicateurs liés au bien-être :
+- **Stress** (1–10)
+- **Qualité du sommeil** (1–10)
+- **Indice de bonheur** (1–10)
 
-L’objectif est d’examiner l’existence d’un **seuil critique d’utilisation des réseaux sociaux au-delà duquel la santé mentale se dégrade significativement**.
+Le dataset inclut aussi des variables contextuelles (âge, genre, fréquence d’exercice, jours sans réseaux sociaux).
 
-Le dataset contient des variables quantitatives (temps d’utilisation, scores psychologiques) et qualitatives (genre, plateformes utilisées).
+L’objectif est d’examiner l’existence d’un **seuil critique d’utilisation des réseaux sociaux** au-delà duquel les indicateurs de bien-être se dégradent significativement.
 
 ## Objectifs
 
-- Explorer et visualiser le temps d’utilisation des réseaux sociaux
-- Analyser la relation entre durée d’usage et indicateurs de santé mentale
-- Identifier un éventuel seuil critique d’heures d’utilisation
-- Comparer les résultats selon le genre et les plateformes
-- Appliquer des analyses statistiques (corrélation, comparaison de moyennes, régression simple)
-- Interpréter les résultats dans une perspective sociétale
+- Explorer et visualiser la distribution du temps d’écran quotidien
+- Analyser la relation entre temps d’écran et :
+  - Stress
+  - Qualité du sommeil
+  - Indice de bonheur
+- Identifier un éventuel seuil critique (groupes : 0–2h, 2–4h, 4–6h, 6h+)
+- Comparer les résultats selon le **genre** et la **plateforme principale**
+- Tester statistiquement les différences entre groupes (ANOVA / tests de comparaison)
+- Proposer une interprétation dans une perspective sociétale (sans confondre corrélation et causalité)
+
 
 ## Installation et Configuration
 
